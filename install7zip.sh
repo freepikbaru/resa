@@ -1,1 +1,1 @@
-sudo apt install p7zip-full -y
+sudo apt install unzip -y
