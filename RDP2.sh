@@ -19,6 +19,9 @@ sudo apt install falkon -y
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg --install google-chrome-stable_current_amd64.deb
 sudo apt install --assume-yes --fix-broken
+wget https://download3.operacdn.com/pub/opera/desktop/60.0.3255.27/linux/opera-stable_60.0.3255.27_amd64.deb
+sudo dpkg -i opera-stable_60.0.3255.27_amd64.deb
+sudo apt install --assume-yes --fix-broken
 sudo adduser ALOK chrome-remote-desktop
 } &> /dev/null &&
 printf "\nSetup Completed " >&2 ||
